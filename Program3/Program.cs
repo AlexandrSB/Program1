@@ -12,6 +12,8 @@ internal class Program
         int[] dot1a = new int[3]{7, -5, 0};
         int[] dot2a = new int[3]{1, -1, 9};
 
+        Console.Clear();
+
         Console.WriteLine($"This number <{b}> is palindrom: {isPalindrom(b)}");
         Console.WriteLine($"Length of line is: {Math.Round(line3D(dot1a, dot2a), 2)}");
         Console.WriteLine($"{String.Join(" ", getCubes(a))}");

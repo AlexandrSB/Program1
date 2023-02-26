@@ -19,6 +19,7 @@ internal class Program
         daysOfWeek.Add("Saturday", 6);
         daysOfWeek.Add("Sunday", 7);
 
+        Console.Clear();
 
         Console.WriteLine($"Second digit of a number <{a}> is: {getSecondDigitOfNumber(a)}");
         Console.WriteLine("Third gigit of a number <{0}> is: {1}", b, getThirdDigitOfNumber(b));

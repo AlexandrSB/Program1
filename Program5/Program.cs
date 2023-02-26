@@ -10,6 +10,7 @@ internal class Program
         int[] vasjaArr = new int[] {4, 16, 19, 31, 2};
         int[] vasjaArr2 = new int[] {29, 4, 7, 12, 15, 17, 24, 1};
 
+        Console.Clear();
 
         for (int counter = 0; counter < array.Length; counter++) {   
             array[counter] = rnd.Next(100, 999);

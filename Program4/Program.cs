@@ -13,6 +13,8 @@ internal class Program
         int petjaGrowth = 159;
         int golbachNumber = 8;
 
+        Console.Clear();
+
         Console.WriteLine($"{a} to the power of {b} is: {bigPow(a, b)}");
         Console.WriteLine($"The sum of the digits in a number is: {sumOfDigit(c)} ");
         Console.WriteLine($"Position of Petja is: {petja(8, pupilsGrowth, petjaGrowth)}");

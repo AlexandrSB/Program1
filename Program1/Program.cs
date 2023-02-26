@@ -7,6 +7,9 @@ internal class Program
         int a = 25;
         int b = 15;
         int c = 34;
+
+        Console.Clear();
+        
         Console.WriteLine($"Max number of {a} and{b} is: {getMaxNumbers1(a, b)}");
         Console.WriteLine($"Max of tree numbers is: {getMaxNumbers2(a, b, c)}");
         Console.WriteLine($"Number {a} is even: {isEven(a)}");
