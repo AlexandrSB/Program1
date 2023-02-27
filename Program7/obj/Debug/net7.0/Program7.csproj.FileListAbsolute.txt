@@ -1,0 +1,15 @@
+F:\Shara\Template\Новая папка\Program1\Program7\obj\Debug\net7.0\Program7.csproj.AssemblyReference.cache
+F:\Shara\Template\Новая папка\Program1\Program7\obj\Debug\net7.0\Program7.GeneratedMSBuildEditorConfig.editorconfig
+F:\Shara\Template\Новая папка\Program1\Program7\obj\Debug\net7.0\Program7.AssemblyInfoInputs.cache
+F:\Shara\Template\Новая папка\Program1\Program7\obj\Debug\net7.0\Program7.AssemblyInfo.cs
+F:\Shara\Template\Новая папка\Program1\Program7\obj\Debug\net7.0\Program7.csproj.CoreCompileInputs.cache
+F:\Shara\Template\Новая папка\Program1\Program7\bin\Debug\net7.0\Program7.exe
+F:\Shara\Template\Новая папка\Program1\Program7\bin\Debug\net7.0\Program7.deps.json
+F:\Shara\Template\Новая папка\Program1\Program7\bin\Debug\net7.0\Program7.runtimeconfig.json
+F:\Shara\Template\Новая папка\Program1\Program7\bin\Debug\net7.0\Program7.dll
+F:\Shara\Template\Новая папка\Program1\Program7\bin\Debug\net7.0\Program7.pdb
+F:\Shara\Template\Новая папка\Program1\Program7\obj\Debug\net7.0\Program7.dll
+F:\Shara\Template\Новая папка\Program1\Program7\obj\Debug\net7.0\refint\Program7.dll
+F:\Shara\Template\Новая папка\Program1\Program7\obj\Debug\net7.0\Program7.pdb
+F:\Shara\Template\Новая папка\Program1\Program7\obj\Debug\net7.0\Program7.genruntimeconfig.cache
+F:\Shara\Template\Новая папка\Program1\Program7\obj\Debug\net7.0\ref\Program7.dll
