@@ -5,16 +5,8 @@ internal class Program
     static void Main(string[] args) {
         Console.Clear();
         System.Console.WriteLine("\n******************** Task 47 ********************\n");
-
-        // System.Console.Write("Введите размер массива: ");
-        // int[] size = Console.ReadLine().Split().Select(x => int.Parse(x)).ToArray();
-        // double[,] matrix = new double[size[0], size[1]];
-
-        int[] myArray = new int[] {4, 5};
-        double[,] matrix = new double[myArray[0], myArray[1]];
-
-        inputMatrix(matrix);
-        printMatrix(matrix);
+        task47();
+        
 
         // Task 50
         System.Console.WriteLine("\n******************** Task 50 ********************\n");
@@ -62,6 +54,18 @@ internal class Program
             }
             Console.WriteLine();
         }
+    }
+
+    static void task47() {
+        // System.Console.Write("Введите размер массива: ");
+        // int[] size = Console.ReadLine().Split().Select(x => int.Parse(x)).ToArray();
+        // double[,] matrix = new double[size[0], size[1]];
+
+        int[] myArray = new int[] {4, 5};
+        double[,] matrix = new double[myArray[0], myArray[1]];
+
+        inputMatrix(matrix);
+        printMatrix(matrix);
     }
 
     static int task50(int[] position) {
