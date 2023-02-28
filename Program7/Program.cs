@@ -4,7 +4,9 @@ internal class Program
 {
     static void Main(string[] args) {
         Console.Clear();
+        // Task 47
         System.Console.WriteLine("\n******************** Task 47 ********************\n");
+
         task47();
         
 
@@ -12,10 +14,13 @@ internal class Program
         System.Console.WriteLine("\n******************** Task 50 ********************\n");
         System.Console.Write("Введите позицию элемента: ");
         int[] position = Console.ReadLine().Split().Select(x => int.Parse(x)).ToArray();
+
         task50(position);
+
 
         // Task 52
         System.Console.WriteLine("\n******************** Task 52 ********************\n");
+
         task52();
 
     }
@@ -38,7 +43,7 @@ internal class Program
         return matrix;
     }
 
-    static void printMatrix (double [,] matrix) {
+    static void printMatrix <T> (T [,] matrix) {
         for (int i = 0; i < matrix.GetLength(0); i++) {
             for (int j = 0; j < matrix.GetLength(1); j++) {
                 Console.Write($"{matrix[i, j]:0.00} \t");
@@ -47,14 +52,14 @@ internal class Program
         }
     }
 
-    static void printMatrix (int[,] matrix) {
-        for (int i = 0; i < matrix.GetLength(0); i++) {
-            for (int j = 0; j < matrix.GetLength(1); j++) {
-                Console.Write($"{matrix[i, j]} \t");
-            }
-            Console.WriteLine();
-        }
-    }
+    // static void printMatrix (int[,] matrix) {
+    //     for (int i = 0; i < matrix.GetLength(0); i++) {
+    //         for (int j = 0; j < matrix.GetLength(1); j++) {
+    //             Console.Write($"{matrix[i, j]} \t");
+    //         }
+    //         Console.WriteLine();
+    //     }
+    // }
 
     static void task47() {
         // System.Console.Write("Введите размер массива: ");
