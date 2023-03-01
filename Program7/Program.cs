@@ -23,6 +23,13 @@ internal class Program
 
         task52();
 
+
+        // Transponyrovanie matricy
+        transpMatrix();
+
+        // Mishino foto
+        foto();
+
     }
 
     static void inputMatrix(double[,] matrix) {
@@ -111,4 +118,72 @@ internal class Program
         }
         System.Console.WriteLine();
     }
+
+    static void transpMatrix() {
+        System.Console.WriteLine();
+        int[] myArray = new int[] {5, 4};
+        double[,] matrix = new double[myArray[0], myArray[1]];
+        double tmp = 0;
+        System.Console.WriteLine(string.Join(" ", tmp));
+
+        inputMatrix(matrix);
+        printMatrix(matrix);
+        System.Console.WriteLine();
+        
+        for (int i = 0; i < matrix.GetLength(0) / 2; i++) {
+            for (int j = 0; j < matrix.GetLength(1); j++) {
+                tmp = matrix[i, j];
+                matrix[i, j] = matrix[matrix.GetLength(0) - i -1, j];
+                matrix[matrix.GetLength(0) - i -1, j] = tmp;
+            }
+        }
+
+        printMatrix(matrix);
+    }
+
+    static void foto() {
+        int lines = 4;
+        int columns = 5;
+        int counter = 0;
+        char[,] positiv = makeMatrix(lines, columns);
+        char[,] negativ = makeMatrix(lines, columns);
+        
+        printMatrix(positiv);
+        System.Console.WriteLine();
+
+        for(int i = 0; i < lines; i++) {
+            for(int j = 0; j < columns; j++) {
+                if (!positiv[i, j].Equals(negativ[i, j])) {
+                    counter++;
+                    negativ[i, j] = char.ToLower(negativ[i, j]);
+                }
+            }
+        }
+      
+        printMatrix(negativ);
+
+        System.Console.WriteLine($"Число пикселей неправильно сформированных Мишей: {counter}");
+    }
+
+    static char generatorBW() {
+        Dictionary<int, char> bwDict = new Dictionary<int, char>();
+        bwDict.Add(1, 'B');
+        bwDict.Add(2, 'W');
+
+        Random rnd = new Random();
+
+        return bwDict[rnd.Next(1, 3)];
+    }
+
+    static char[,] makeMatrix(int lines, int columns) {
+        char[,] matrix = new char[lines, columns];
+
+        for (int i = 0; i < lines; i++) {
+            for (int j = 0; j < columns; j++) {
+                matrix[i, j] = generatorBW();
+            }
+        }
+        return matrix;
+    }
 }
+
