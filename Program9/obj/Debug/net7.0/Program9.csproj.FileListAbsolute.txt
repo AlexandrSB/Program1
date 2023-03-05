@@ -1,0 +1,15 @@
+F:\Shara\Template\Новая папка\Program1\Program9\bin\Debug\net7.0\Program9.exe
+F:\Shara\Template\Новая папка\Program1\Program9\bin\Debug\net7.0\Program9.deps.json
+F:\Shara\Template\Новая папка\Program1\Program9\bin\Debug\net7.0\Program9.runtimeconfig.json
+F:\Shara\Template\Новая папка\Program1\Program9\bin\Debug\net7.0\Program9.dll
+F:\Shara\Template\Новая папка\Program1\Program9\bin\Debug\net7.0\Program9.pdb
+F:\Shara\Template\Новая папка\Program1\Program9\obj\Debug\net7.0\Program9.csproj.AssemblyReference.cache
+F:\Shara\Template\Новая папка\Program1\Program9\obj\Debug\net7.0\Program9.GeneratedMSBuildEditorConfig.editorconfig
+F:\Shara\Template\Новая папка\Program1\Program9\obj\Debug\net7.0\Program9.AssemblyInfoInputs.cache
+F:\Shara\Template\Новая папка\Program1\Program9\obj\Debug\net7.0\Program9.AssemblyInfo.cs
+F:\Shara\Template\Новая папка\Program1\Program9\obj\Debug\net7.0\Program9.csproj.CoreCompileInputs.cache
+F:\Shara\Template\Новая папка\Program1\Program9\obj\Debug\net7.0\Program9.dll
+F:\Shara\Template\Новая папка\Program1\Program9\obj\Debug\net7.0\refint\Program9.dll
+F:\Shara\Template\Новая папка\Program1\Program9\obj\Debug\net7.0\Program9.pdb
+F:\Shara\Template\Новая папка\Program1\Program9\obj\Debug\net7.0\Program9.genruntimeconfig.cache
+F:\Shara\Template\Новая папка\Program1\Program9\obj\Debug\net7.0\ref\Program9.dll
