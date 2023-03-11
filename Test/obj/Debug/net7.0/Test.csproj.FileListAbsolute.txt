@@ -1,0 +1,15 @@
+F:\Shara\Template\Новая папка\Program1\Test\obj\Debug\net7.0\Test.csproj.AssemblyReference.cache
+F:\Shara\Template\Новая папка\Program1\Test\obj\Debug\net7.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+F:\Shara\Template\Новая папка\Program1\Test\obj\Debug\net7.0\Test.AssemblyInfoInputs.cache
+F:\Shara\Template\Новая папка\Program1\Test\obj\Debug\net7.0\Test.AssemblyInfo.cs
+F:\Shara\Template\Новая папка\Program1\Test\obj\Debug\net7.0\Test.csproj.CoreCompileInputs.cache
+F:\Shara\Template\Новая папка\Program1\Test\bin\Debug\net7.0\Test.exe
+F:\Shara\Template\Новая папка\Program1\Test\bin\Debug\net7.0\Test.deps.json
+F:\Shara\Template\Новая папка\Program1\Test\bin\Debug\net7.0\Test.runtimeconfig.json
+F:\Shara\Template\Новая папка\Program1\Test\bin\Debug\net7.0\Test.dll
+F:\Shara\Template\Новая папка\Program1\Test\bin\Debug\net7.0\Test.pdb
+F:\Shara\Template\Новая папка\Program1\Test\obj\Debug\net7.0\Test.dll
+F:\Shara\Template\Новая папка\Program1\Test\obj\Debug\net7.0\refint\Test.dll
+F:\Shara\Template\Новая папка\Program1\Test\obj\Debug\net7.0\Test.pdb
+F:\Shara\Template\Новая папка\Program1\Test\obj\Debug\net7.0\Test.genruntimeconfig.cache
+F:\Shara\Template\Новая папка\Program1\Test\obj\Debug\net7.0\ref\Test.dll
